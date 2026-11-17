@@ -1,0 +1,9 @@
+# Experimental cross-session messaging layer. Apply after dsh-base: these tools
+# address any stored main-agent Session by id, which no shipped bundle does.
+
+- insert:
+    - id: session-messenger
+      name: '@deepseek-ai/dsh-experimental-session-messenger'
+      config:
+        maxMessageBytes: 65536
+        maxTargets: 50

@@ -1,0 +1,13 @@
+<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="4" y="10" width="11" height="16" rx="3.5" fill="url(#session-messenger-left)" />
+  <rect x="21" y="10" width="11" height="16" rx="3.5" fill="#45D9E7" />
+  <path d="M15.2 18H20.8" stroke="#F2AF63" stroke-width="2" stroke-linecap="round" />
+  <path d="M19.2 16.2 21 18l-1.8 1.8" stroke="#F2AF63" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M16.8 16.2 15 18l1.8 1.8" stroke="#F2AF63" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  <defs>
+    <linearGradient id="session-messenger-left" x1="14" y1="11" x2="5" y2="25" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7CB7FF" />
+      <stop offset="1" stop-color="#145AF3" />
+    </linearGradient>
+  </defs>
+</svg>

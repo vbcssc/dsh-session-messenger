@@ -1,0 +1,13 @@
+# Single-package project. pnpm reads its settings from this file.
+packages:
+  - '.'
+
+allowBuilds:
+  koffi: set this to true or false
+
+# koffi is a transitive native FFI module of the filesystem provider. Nothing
+# here loads its native path, so its build script stays off.
+ignoredBuiltDependencies:
+  - koffi
+
+strictDepBuilds: false
